@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+  font-family: Impact;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  text-shadow: 1px 1px 2px #777;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #888;
+}
+
+input {
+  background-color: #e6e6e6;
+  color: #888;
+}
+
+button {
+  cursor: pointer;
+}
+
+.aggiungi-movimento {
+  background-color: #888;
+  color: #ffffff;
+}
+
+.aggiungi-movimento:hover {
+  background-color: #777;
+}
+
+.movimento {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #888;
+}
+
+.entrata {
+  background-color: #00ff00;
+}
+
+.uscita {
+  background-color: #ff0000;
+}
+
+.saldo-positivo {
+  color: #00ff00;
+}
+
+.saldo-negativo {
+  color: #ff0000;
+}
